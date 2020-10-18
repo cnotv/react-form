@@ -1,0 +1,45 @@
+.form__item {
+  display: flex;
+  flex-direction: column;
+}
+.form__item + .form__item {
+  margin-top: 1em;
+}
+
+.form__item__label {
+  color: #888;
+  margin-bottom: 0.5em;
+}
+
+.form__item__input {
+  height: 2rem;
+  padding: 0 0.5em;
+}
+
+.form__errors {
+  color: red;
+  margin: 0.5em 0 0 0;
+  font-size: 0.8rem;
+}
+
+.form__button {
+  padding: 0.8em 1.6em;
+  font-size: 1rem;
+  margin-top: 1em;
+  background-color: #5b009c;
+  color: white;
+  border-radius: 1.6rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.form__button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.form__button:focus {
+  outline: none;
+}
+
